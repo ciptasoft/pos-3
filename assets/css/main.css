@@ -24,8 +24,18 @@ footer {
 .dashbord_content {
   padding-top: 25px;
   overflow: hidden; }
-  .dashbord_content .s2 .info h2 {
+  .dashbord_content #s2 .info h2 {
     color: #6FD64B; }
+  .dashbord_content #s2 .icon {
+    background-color: #6FD64B; }
+  .dashbord_content #s3 .info h2 {
+    color: #FB5D5D; }
+  .dashbord_content #s3 .icon {
+    background-color: #FB5D5D; }
+  .dashbord_content #s4 .info h2 {
+    color: #F7941D; }
+  .dashbord_content #s4 .icon {
+    background-color: #F7941D; }
   .dashbord_content .card_shop {
     overflow: hidden;
     position: relative;

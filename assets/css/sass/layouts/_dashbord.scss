@@ -26,11 +26,34 @@
 .dashbord_content{
 	padding-top: 25px;
 	overflow: hidden;
-	.s2{
+	#s2{
 		.info{
 			h2{
 				color: #6FD64B;
 			}
+		}
+		.icon{
+			background-color: #6FD64B;
+		}
+	}
+	#s3{
+		.info{
+			h2{
+				color: #FB5D5D;
+			}
+		}
+		.icon{
+			background-color: #FB5D5D;
+		}
+	}
+	#s4{
+		.info{
+			h2{
+				color: #F7941D;
+			}
+		}
+		.icon{
+			background-color: #F7941D;
 		}
 	}
 	.card_shop{
@@ -54,8 +77,6 @@
 			}
 		}
 		.icon{
-
-
 			height: 90%;
 			margin: 4px;
 			background-color: #489EE7;

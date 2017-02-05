@@ -9,8 +9,8 @@
 						<li class="list-group-item"><a href="#"> <i class="ion-ios-download-outline"></i> SUPPLIERS</a></li>
 						<li class="list-group-item"><a href="#"> <i class="ion-ios-help-outline"></i> REPORTS</a></li>
 						<li class="list-group-item"><a href="#"> <i class="ion-ios-cart-outline"></i> SALES</a></li>
+						<li class="list-group-item"><a href="#"> <i class="ion-ios-settings"></i> USERS</a></li>
 						<li class="list-group-item"><a href="#"> <i class="ion-ios-settings"></i> SETTINGS</a></li>
-						<li class="list-group-item"><a href="#"> <i class="ion-ios-albums"></i> INVENTORY</a></li>
 						<li class="list-group-item"><a href="#"> <i class="ion-cash"></i> BALANCE</a></li>
 					</ul>
 				</div>
@@ -30,7 +30,7 @@
 					</div>
 				</div>
 				<div class="col-md-3">
-					<div class="card_shop s2">
+					<div class="card_shop" id="s2">
 						<div class="info">
 							<h2>2310</h2>
 							<p>Total Items</p>
@@ -41,7 +41,7 @@
 					</div>
 				</div>
 				<div class="col-md-3">
-					<div class="card_shop s3">
+					<div class="card_shop" id="s3">
 						<div class="info">
 							<h2>240</h2>
 							<p>Order pending</p>
@@ -52,7 +52,7 @@
 					</div>
 				</div>
 				<div class="col-md-3">
-					<div class="card_shop s4">
+					<div class="card_shop" id="s4">
 						<div class="info">
 							<h2>185</h2>
 							<p>Total Customers</p>
