@@ -1,0 +1,28 @@
+.dashbord_menu .col-lg-2 {
+  padding: 0; }
+  .dashbord_menu .col-lg-2 .dashbord_inner {
+    background-color: #373942;
+    height: 100vh;
+    top: 0;
+    left: 0; }
+    .dashbord_menu .col-lg-2 .dashbord_inner .list-group-item {
+      background-color: #373942;
+      border-radius: 0;
+      border-color: #444; }
+
+.dashbord_content {
+  float: left;
+  padding-left: 300px; }
+
+.navbar {
+  margin-bottom: 0; }
+
+.navbar-right .dropdown {
+  padding-top: 8px;
+  padding-bottom: 8px; }
+
+.container-fluid {
+  padding-right: 0 !important;
+  padding-left: 0 !important; }
+
+/*# sourceMappingURL=main.css.map */
