@@ -17,7 +17,13 @@ footer {
       border-radius: 0;
       border-color: #444; }
       .dashbord_menu .col-md-2.col-sm-6 .dashbord_inner .list-group-item a {
-        color: #fff; }
+        color: #fff;
+        font-size: 16px; }
+        .dashbord_menu .col-md-2.col-sm-6 .dashbord_inner .list-group-item a i {
+          width: 28px;
+          padding-right: 12px;
+          font-size: 24px;
+          display: inline-block; }
     .dashbord_menu .col-md-2.col-sm-6 .dashbord_inner .list-group .active {
       background-color: #24262c; }
 
@@ -68,6 +74,15 @@ footer {
         position: relative;
         top: calc(50% - 25px); }
 
+.b_fun {
+  overflow: hidden;
+  clear: both; }
+  .b_fun h4 {
+    margin: 20px 0 0 0;
+    color: #555; }
+  .b_fun hr {
+    border-color: #b7c6cd; }
+
 .navbar {
   margin-bottom: 0; }
 
@@ -75,7 +90,90 @@ footer {
   padding-top: 8px;
   padding-bottom: 8px; }
 
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto; }
+  .login-page h2 {
+    color: #666;
+    margin-bottom: 30px; }
+  .login-page .form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); }
+  .login-page .form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px; }
+  .login-page .form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer; }
+  .login-page .form button:hover, .login-page .form button:active, .login-page .form button:focus {
+    background: #43A047; }
+  .login-page .form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px; }
+  .login-page .form .message a {
+    color: #4CAF50;
+    text-decoration: none; }
+  .login-page .form .register-form {
+    display: none; }
+  .login-page .container {
+    position: relative;
+    z-index: 1;
+    max-width: 300px;
+    margin: 0 auto; }
+  .login-page .container:before, .login-page .container:after {
+    content: "";
+    display: block;
+    clear: both; }
+  .login-page .container .info {
+    margin: 50px auto;
+    text-align: center; }
+  .login-page .container .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1a1a1a; }
+  .login-page .container .info span {
+    color: #4d4d4d;
+    font-size: 12px; }
+  .login-page .container .info span a {
+    color: #000000;
+    text-decoration: none; }
+  .login-page .container .info span .fa {
+    color: #EF3B3A; }
+
+#r_404 {
+  margin: 30px 0 15px 0; }
+  #r_404 .i_404 {
+    font-size: 30px; }
+
 body {
+  font-family: 'Nunito', sans-serif;
   background-color: #E8EBF1; }
 
 .container-fluid {

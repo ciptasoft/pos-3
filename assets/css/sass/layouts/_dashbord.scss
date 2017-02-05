@@ -12,6 +12,14 @@
 				border-color:#444;
 				a{
 					color: #fff;
+					font-size: 16px;
+					i{
+						width: 28px;
+						padding-right: 12px;
+						font-size: 24px;
+						display: inline-block;
+					}
+
 				}
 			}
 			.list-group{
@@ -96,5 +104,16 @@
 				top: calc(50% - 25px);
 			}
 		}
+	}
+}
+.b_fun{
+	overflow: hidden;
+	clear: both;
+	h4{
+		margin: 20px 0 0 0;
+		color: #555;
+	}
+	hr{
+		border-color: lighten(#607D8B,30%);
 	}
 }
