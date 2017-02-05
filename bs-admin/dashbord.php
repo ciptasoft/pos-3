@@ -1,24 +1,67 @@
 	<div class="container-fluid">
 		<div class="dashbord_menu">
-			<div class="col-lg-2">
+			<div class="col-md-2 col-sm-6">
 				<div class="dashbord_inner">
 					<ul class="list-group">
-						<li class="list-group-item"><a href="#"><b>DASHBORD</b></a></li>
-						<li class="list-group-item"><a href="#"><b>CUSTOMER</b></a></li>
-						<li class="list-group-item"><a href="#"><b>ITEMS</b></a></li>
-						<li class="list-group-item"><a href="#"><b>SUPPLIERS</b></a></li>
-						<li class="list-group-item"><a href="#"><b>REPORTS</b></a></li>
-						<li class="list-group-item"><a href="#"><b>SALES</b></a></li>
-						<li class="list-group-item"><a href="#"><b>SETTINGS</b></a></li>
-						<li class="list-group-item"><a href="#"><b>INVENTORY</b></a></li>
-						<li class="list-group-item"><a href="#"><b>BALANCE</b></a></li>
+						<li class="list-group-item active"><a href="#"><i class="ion-speedometer"></i> DASHBORD</a></li>
+						<li class="list-group-item"><a href="#"> <i class="ion-ios-people-outline"></i> CUSTOMER</a></li>
+						<li class="list-group-item"><a href="#"> <i class="ion-soup-can-outline"></i> ITEMS</a></li>
+						<li class="list-group-item"><a href="#"> <i class="ion-ios-download-outline"></i> SUPPLIERS</a></li>
+						<li class="list-group-item"><a href="#"> <i class="ion-ios-help-outline"></i> REPORTS</a></li>
+						<li class="list-group-item"><a href="#"> <i class="ion-ios-cart-outline"></i> SALES</a></li>
+						<li class="list-group-item"><a href="#"> <i class="ion-ios-settings"></i> SETTINGS</a></li>
+						<li class="list-group-item"><a href="#"> <i class="ion-ios-albums"></i> INVENTORY</a></li>
+						<li class="list-group-item"><a href="#"> <i class="ion-cash"></i> BALANCE</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
-		<div class="dashbord_content">
-			<div class="col-lg-10">
-
+		<div class="col-md-10">
+			<div class="dashbord_content">
+				<div class="col-md-3">
+					<div class="card_shop s1">
+						<div class="info">
+							<h2>110</h2>
+							<p>Total sales</p>
+						</div>
+						<div class="icon">
+							<i class="ion-ios-cart-outline"></i>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card_shop s2">
+						<div class="info">
+							<h2>2310</h2>
+							<p>Total Items</p>
+						</div>
+						<div class="icon">
+							<i class="ion-ios-cart-outline"></i>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card_shop s3">
+						<div class="info">
+							<h2>240</h2>
+							<p>Order pending</p>
+						</div>
+						<div class="icon">
+							<i class="ion-ios-cart-outline"></i>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card_shop s4">
+						<div class="info">
+							<h2>185</h2>
+							<p>Total Customers</p>
+						</div>
+						<div class="icon">
+							<i class="ion-ios-cart-outline"></i>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

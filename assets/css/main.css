@@ -1,18 +1,62 @@
-.dashbord_menu .col-lg-2 {
+footer {
+  background: #363636; }
+  footer p {
+    color: #fff;
+    margin-bottom: 0;
+    padding: 15px; }
+
+.dashbord_menu .col-md-2.col-sm-6 {
   padding: 0; }
-  .dashbord_menu .col-lg-2 .dashbord_inner {
+  .dashbord_menu .col-md-2.col-sm-6 .dashbord_inner {
     background-color: #373942;
     height: 100vh;
     top: 0;
     left: 0; }
-    .dashbord_menu .col-lg-2 .dashbord_inner .list-group-item {
+    .dashbord_menu .col-md-2.col-sm-6 .dashbord_inner .list-group-item {
       background-color: #373942;
       border-radius: 0;
       border-color: #444; }
+      .dashbord_menu .col-md-2.col-sm-6 .dashbord_inner .list-group-item a {
+        color: #fff; }
+    .dashbord_menu .col-md-2.col-sm-6 .dashbord_inner .list-group .active {
+      background-color: #24262c; }
 
 .dashbord_content {
-  float: left;
-  padding-left: 300px; }
+  padding-top: 25px;
+  overflow: hidden; }
+  .dashbord_content .s2 .info h2 {
+    color: #6FD64B; }
+  .dashbord_content .card_shop {
+    overflow: hidden;
+    position: relative;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.1); }
+    .dashbord_content .card_shop .info {
+      float: left;
+      padding-left: 6px; }
+      .dashbord_content .card_shop .info h2 {
+        color: #489EE7; }
+    .dashbord_content .card_shop .icon {
+      height: 90%;
+      margin: 4px;
+      background-color: #489EE7;
+      width: 40%;
+      float: right;
+      right: 0;
+      position: absolute;
+      text-align: center;
+      border-radius: 2px; }
+      .dashbord_content .card_shop .icon i {
+        display: inline-block;
+        font-size: 40px;
+        color: #f7f7f7;
+        vertical-align: middle;
+        box-sizing: border-box;
+        position: relative;
+        top: calc(50% - 25px); }
 
 .navbar {
   margin-bottom: 0; }
@@ -20,6 +64,9 @@
 .navbar-right .dropdown {
   padding-top: 8px;
   padding-bottom: 8px; }
+
+body {
+  background-color: #E8EBF1; }
 
 .container-fluid {
   padding-right: 0 !important;

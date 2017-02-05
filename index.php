@@ -1,9 +1,12 @@
 <?php 
-include 'bs-content/header.php';
 
-include 'bs-content/pos-body.php';
-include 'bs-admin/dashbord.php';
+require_once('core/function.php');
+$bsCore = new bsCore();
 
+$bsCore->Header();
 
-include 'bs-content/footer.php';
+$bsCore->posBody();
+$bsCore->Dashbord();
+
+$bsCore->Footer();
 ?>
