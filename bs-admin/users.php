@@ -1,7 +1,7 @@
 <div class="items_page">
 	<div class="container">
 		<div class="bs_btn">
-			<a href="<?php echo "?ref=newCustomer" ?>" class="btn btn-primary" role="button">New Customer</a>
+			<a href="<?php echo "?ref=newUser" ?>" class="btn btn-primary" role="button">New User</a>
 		</div>
 		<hr>
 		<div class="bs_table">
@@ -11,7 +11,7 @@
 			<div class="panel panel-piluku">
 				<div class="panel-heading">
 					<h3 class="panel-title">
-						List of Customers <span title="6 total items" class="badge bg-primary tip-left" id="manage_total_items">6</span>
+						List of User <span title="6 total items" class="badge bg-primary tip-left" id="manage_total_items">6</span>
 						<div class="panel-options custom">
 						</div>
 					</h3>
@@ -26,10 +26,11 @@
 									</label>
 								</th>
 								<th>Serial</th>
-								<th>Person ID</th>
-								<th>Name</th>
-								<th>Email</th>
-								<th>Phone Number</th>
+								<th>User Id</th>
+								<th>First Name</th>
+								<th>Last Name</th>
+								<th>User Type</th>
+								<th>Profile</th>
 								<th>Edit</th>
 								<th>Preview</th>
 								<th class="rightmost">&nbsp;</th>
@@ -43,10 +44,11 @@
 									</label>
 								</td>
 								<td>1</td>
-								<td>23</td>
-								<td>Karim</td>
-								<td>me@you.com</td>
-								<td>+8801748914040</td>
+								<td>345354</td>
+								<td>Jamal</td>
+								<td>Uddin</td>
+								<td>Admin</td>
+								<td>Profile</td>
 								<td class="rightmost"><a href="#" class=" " title="Update Item">Edit</a>
 								</td>
 								<td>

@@ -11,10 +11,7 @@ class bsCore {
 		require 'bs-admin/main.php';
 		
 	}
-	function posBody(){
-		require 'bs-content/pos-body.php';
-		
-	}
+	
 }
 
 ?>

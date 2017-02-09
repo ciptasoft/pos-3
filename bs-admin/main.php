@@ -5,8 +5,8 @@
 					<ul class="list-group">
 						<li class="list-group-item active"><a href="/"><i class="ion-speedometer"></i> Dashbord</a></li>
 						<li class="list-group-item"><a href="<?="?ref=items" ?>"> <i class="ion-soup-can-outline"></i> Items</a></li>
-						<li class="list-group-item"><a href="<?="?ref=sales" ?>"> <i class="ion-ios-cart-outline"></i> Sales</a></li>
 						<li class="list-group-item"><a href="<?="?ref=customers" ?>"> <i class="ion-ios-people-outline"></i> Customer</a></li>
+						<li class="list-group-item"><a href="<?="?ref=sales" ?>"> <i class="ion-ios-cart-outline"></i> Sales</a></li>
 						<li class="list-group-item"><a href="<?="?ref=suppliers" ?>"> <i class="ion-ios-download-outline"></i> Suppliers</a></li>
 						<li class="list-group-item"><a href="<?="?ref=balance" ?>"> <i class="ion-card"></i> Balance</a></li>
 						<li class="list-group-item"><a href="<?="?ref=reports" ?>"> <i class="ion-ios-help-outline"></i> Reports</a></li>

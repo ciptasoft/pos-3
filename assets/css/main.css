@@ -180,4 +180,22 @@ body {
   padding-right: 0 !important;
   padding-left: 0 !important; }
 
+.items_page {
+  overflow: hidden;
+  background-color: #fff; }
+  .items_page .bs_btn {
+    padding-top: 25px; }
+  .items_page h4 {
+    padding-left: 10px; }
+  .items_page hr {
+    border-color: #bfbfbf; }
+
+.bs_customer {
+  padding-top: 25px; }
+
+.new_item {
+  margin: 5px;
+  overflow: hidden;
+  background-color: #fff; }
+
 /*# sourceMappingURL=main.css.map */

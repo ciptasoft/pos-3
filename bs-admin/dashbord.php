@@ -4,7 +4,7 @@
 		<div class="col-md-3">
 			<div class="card_shop s1">
 				<div class="info">
-					<a href="<?php echo "/bs-admin/main.php?ref=sales"; ?>"><h2>110</h2></a>
+					<a href="<?= "?ref=sales"; ?>"><h2>110</h2></a>
 					<p>Total sales</p>
 				</div>
 				<div class="icon">
