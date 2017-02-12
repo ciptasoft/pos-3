@@ -1,3 +1,35 @@
+<?php 
+if(isset($_POST['cusSub'])){
+	$customerName = "";
+	$customerEmail = "";
+	$customerNumber = "";
+	$image_id = "";
+
+	$errornNme = false;
+	$errorEmail = false;
+	$errorNumber = false;
+	$errorImage_id = false;
+
+	if (trim($_POST['customerName']) === '') {
+		$errorName = true;
+	} else {
+		$customerName = trim($_POST['customerName']);
+	}
+
+	if (trim($_POST['customerEmail']) === '') {
+		$errorEmail = true;
+	} else {
+		$customerEmail = trim($_POST['customerEmail']);
+	}
+
+	if (trim($_POST['customerNumber']) === '') {
+		$errorNumber = true;
+	} else {
+		$customerNumber = trim($_POST['customerNumber']);
+	}
+}
+echo "hi";
+?>
 <div class="items_page">
 	<div class="container">
 		<div class="bs_btn">
@@ -5,9 +37,6 @@
 		</div>
 		<hr>
 		<div class="bs_table">
-
-			<h4>List of available items <span title="9 total items" class="badge bg-primary tip-left" id="manage_total_items"> 9</span></h4>
-			<hr>
 			<div class="panel panel-piluku">
 				<div class="panel-heading">
 					<h3 class="panel-title">

@@ -6,15 +6,15 @@ $bsCore = new bsCore();
 $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 
 if (strpos($url,'?ref=') == false && $_SERVER['REQUEST_URI']!='/' ){
-	$bsCore::Header();
+	$bsCore->Header();
 	require 'bs-content/404.php';
 
-	$bsCore::Footer();
+	$bsCore->Footer();
 }
 else
 {
-	$bsCore::Header();
-	$bsCore::main();
-	$bsCore::Footer();
+	$bsCore->Header();
+	$bsCore->main();
+	$bsCore->Footer();
 }
 ?>
