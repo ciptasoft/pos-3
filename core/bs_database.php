@@ -31,6 +31,13 @@ class DB
 			`email` VARCHAR(100) NOT NULL,
 			`phone_number` VARCHAR(100) NOT NULL ) ENGINE = InnoDB;";
 			$conn->exec($sales);
+			$customer = "CREATE TABLE `pos`.`customers` ( 
+			`id` INT(11) AUTO_INCREMENT PRIMARY KEY , 
+			`customer_name` VARCHAR(50) NOT NULL ,
+			`customer_email` VARCHAR(50) NOT NULL ,
+			`customer_number` VARCHAR(50) NOT NULL ,
+			`image_id` VARCHAR(150) NOT NULL ) ENGINE = InnoDB;";
+			$conn->exec($customer);
 			$user = "CREATE TABLE `pos`.`user` ( 
 			`id` INT(11) AUTO_INCREMENT PRIMARY KEY , 
 			`fName` VARCHAR(50) NOT NULL , 

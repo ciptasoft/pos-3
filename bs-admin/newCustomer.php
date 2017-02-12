@@ -21,9 +21,9 @@
             </div>
         </div>
         <div class="form-group">
-            <label for="item_number" class="col-sm-3 col-md-3 col-lg-2 control-label wide">Upload Profile picture :</label> 
+            <label for="itemQuantity" class="col-sm-3 col-md-3 col-lg-2 control-label wide">Select image to upload: </label> 
             <div class="col-sm-9 col-md-9 col-lg-10">
-
+                <input type="file" name="fileToUpload" id="fileToUpload">
             </div>
         </div>
         
