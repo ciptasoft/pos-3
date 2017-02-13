@@ -42,7 +42,10 @@ class DB
 			`id` INT(11) AUTO_INCREMENT PRIMARY KEY , 
 			`fName` VARCHAR(50) NOT NULL , 
 			`lName` VARCHAR(50) NOT NULL , 
-			`type` INT(10) NOT NULL , 
+			`type` VARCHAR(50) NOT NULL , 
+			`email` VARCHAR(50) NOT NULL , 
+			`number` VARCHAR(50) NOT NULL , 
+			`password` VARCHAR(50) NOT NULL , 
 			`uri` VARCHAR(100) NOT NULL , 
 			`image_id` VARCHAR(100) NOT NULL ) ENGINE = InnoDB;";
 			$conn->exec($user);

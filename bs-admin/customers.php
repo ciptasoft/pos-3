@@ -73,7 +73,7 @@ if(isset($_POST['cusSub'])){
 			require 'core/curd.php';
 
     		//insert into table
-			$sql = "INSERT INTO `customers` (`customer_name`, `customer_email`, `customer_number`, `image_id`) VALUES ('$customerName', '$customerEmail', 'customerNumber', '$fileDir')";
+			$sql = "INSERT INTO `customers` (`customer_name`, `customer_email`, `customer_number`, `image_id`) VALUES ('$customerName', '$customerEmail', '$customerNumber', '$fileDir')";
 			createRow($sql);
 
 		} else {
@@ -97,7 +97,6 @@ if(isset($_POST['cusSub'])){
 						require 'core/curd.php';
 						rowCount("customers");
 						?>
-
 					</span>
 					<div class="panel-options custom">
 					</div>
@@ -122,6 +121,16 @@ if(isset($_POST['cusSub'])){
 							<th class="rightmost">&nbsp;</th>
 						</tr>
 					</thead>
+					<?php  
+
+					require 'core/curd.php';
+    					//insert into table
+
+
+					$sql = "select * from customers";
+					$data = readRow($sql,array());  
+					$count = 1;
+					foreach($data as $result) :?>
 					<tbody>
 						<tr style="cursor: pointer;">
 							<td>
@@ -129,11 +138,11 @@ if(isset($_POST['cusSub'])){
 								<label for="item_18"><span></span>
 								</label>
 							</td>
-							<td>1</td>
-							<td>23</td>
-							<td>Karim</td>
-							<td>me@you.com</td>
-							<td>+8801748914040</td>
+							<td><?php echo $count; ?></td>
+							<td><?php echo $result[id]; ?></td>
+							<td><?php echo $result[customer_name]; ?></td>
+							<td><?php echo $result[customer_email]; ?></td>
+							<td><?php echo $result[customer_number]; ?></td>
 							<td class="rightmost"><a href="#" class=" " title="Update Item">Edit</a>
 							</td>
 							<td>
@@ -143,6 +152,7 @@ if(isset($_POST['cusSub'])){
 						</tr>
 
 					</tbody>
+					<?php $count++; endforeach; ?>
 				</table>
 			</div>
 		</div>

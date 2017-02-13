@@ -10,7 +10,7 @@ if(!function_exists("createRow")) {
 
 		try {
 			$conn = new PDO("mysql:host=$server;dbname=$database;", $username, $password);
-		// $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+			$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 			if ($conn->exec($sql) == TRUE) {
 				echo "New record created successfully";
 			} else {

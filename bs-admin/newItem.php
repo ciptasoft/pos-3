@@ -8,6 +8,7 @@
                 <input type="text" name="itemName" value="" id="itemName" class="form-control form-inps">
             </div>
         </div>
+        
         <div class="form-group">
             <label for="itemCategory" class="col-sm-3 col-md-3 col-lg-2 control-label wide">Item Category :</label> 
             <div class="col-sm-9 col-md-9 col-lg-10">

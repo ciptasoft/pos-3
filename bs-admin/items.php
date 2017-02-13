@@ -153,9 +153,7 @@ if(isset($_POST['itemSubmit'])){
 					<?php  
 
 					require 'core/curd.php';
-    					//insert into table
-
-
+    				//insert into table
 					$sql = "select * from items";
 					$data = readRow($sql,array());  
 					$count = 1;

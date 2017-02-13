@@ -1,22 +1,15 @@
-function getDomain(url) {
-	var prefix = /^https?:\/\//i;
-	var domain = /^[^\/]+/;
-    // remove any prefix
-    url = url.replace(prefix, "");
-    // assume any URL that starts with a / is on the current page's domain
-    if (url.charAt(0) === "/") {
-    	url = window.location.hostname + url;
-    }
-    // now extract just the domain
-    var match = url.match(domain);
-    if (match) {
-    	return(match[0]);
-    }
-    return(null);
-}
-window.alert(getDomain());
-
-// if (true) {
-// 	$.('dashbord')
-
-// }
+var countries = new Bloodhound({
+  datumTokenizer: Bloodhound.tokenizers.whitespace,
+  queryTokenizer: Bloodhound.tokenizers.whitespace,
+  // url points to a json file that contains an array of country names, see
+  // https://github.com/twitter/typeahead.js/blob/gh-pages/data/countries.json
+  prefetch: 'countries.json'
+});
+// var path = document.location.pathname;
+// window.alert(path);
+// passing in `null` for the `options` arguments will result in the default
+// options being used
+$('#prefetch .typeahead').typeahead({
+    name: 'Auto',
+    source: countries
+});

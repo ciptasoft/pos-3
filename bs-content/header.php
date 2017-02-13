@@ -16,7 +16,6 @@
 
 	<link rel="stylesheet" href="<?php echo "assets/css/main.css"; ?>">
 
-	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 <body>
 	<nav class="navbar navbar-inverse">
