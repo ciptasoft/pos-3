@@ -90,8 +90,88 @@ footer {
   padding-top: 8px;
   padding-bottom: 8px; }
 
+.sales_sidebar {
+  width: 95%;
+  margin-top: 25px; }
+
+.discount {
+  background-color: #fff;
+  padding: 10px 0;
+  margin-bottom: 10px; }
+  .discount label {
+    padding: 6px;
+    margin: 0; }
+  .discount ul {
+    border-top: 1px dotted #888;
+    border-bottom: 1px dotted #888;
+    list-style-type: none;
+    padding: 0;
+    padding: 6px; }
+    .discount ul li {
+      display: inline; }
+
+.payment_type {
+  background-color: #fff;
+  border-top: 1px dotted #888;
+  border-bottom: 1px dotted #888;
+  padding: 6px; }
+  .payment_type .input-group {
+    margin-top: 10px; }
+  .payment_type label[for="paymentComment"] {
+    margin-top: 10px; }
+  .payment_type textarea {
+    width: 100%;
+    resize: none; }
+
+.sub_total {
+  background-color: #fff; }
+  .sub_total label {
+    padding: 6px;
+    margin: 0; }
+  .sub_total ul {
+    padding-left: 6px;
+    border-top: 1px dotted #888;
+    border-bottom: 1px dotted #888; }
+    .sub_total ul li:first-child {
+      float: left;
+      border-right: 1px dotted #888; }
+  .sub_total li:last-child {
+    padding-left: 6px; }
+  .sub_total li {
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box; }
+
 .sales_page {
-  overflow: hidden; }
+  overflow: hidden;
+  margin: 25px 0; }
+  .sales_page .search_box .form-group span {
+    width: 100%; }
+  .sales_page hr {
+    border-color: #888; }
+
+.items a {
+  margin-top: 25px; }
+
+.search_customer .input-group {
+  margin-bottom: 10px; }
+
+.bar {
+  border-bottom: 1px solid #b3b3b3;
+  margin-bottom: 25px;
+  clear: both; }
+
+body {
+  counter-reset: Serial;
+  /* Set the Serial counter to 0 */ }
+
+table.crtTbl {
+  border-collapse: separate; }
+  table.crtTbl tr td:first-child:before {
+    counter-increment: Serial;
+    /* Increment the Serial counter */
+    content: counter(Serial);
+    /* Display the counter */ }
 
 .login-page {
   width: 360px;

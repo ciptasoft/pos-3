@@ -1,12 +1,124 @@
+.sales_sidebar{
+	width: 95%;
+	margin-top: 25px;
+}
+.discount{
+	background-color: #fff;
+	padding: 10px 0;
+	margin-bottom: 10px;
+	label{
+		padding: 6px;
+		margin: 0;
+	}
+	ul{
+		border-top: 1px dotted #888;
+		border-bottom: 1px dotted #888;
+		list-style-type: none;
+		padding: 0;
+		padding: 6px;
+		li{
+			display: inline;
+
+		}
+
+	}
+}
+
+.payment_type{
+	background-color: #fff;
+	border-top: 1px dotted #888;
+	border-bottom: 1px dotted #888;
+	padding: 6px;
+	.input-group{
+		margin-top: 10px; 
+	}
+	label[for="paymentComment"]{
+		margin-top: 10px;
+	}
+	textarea{
+		width: 100%;
+		resize: none;
+	}
+}
+.sub_total{
+	background-color: #fff;
+	label{
+		padding: 6px;
+		margin: 0;
+	}
+	ul{
+		padding-left: 6px; 
+		border-top: 1px dotted #888;
+		border-bottom: 1px dotted #888;
+		li:first-child{
+			float:left;
+			border-right: 1px dotted #888;
+		}
+
+	}
+	li:last-child{
+		padding-left: 6px;
+
+	}
+	li{
+		width: 50%;
+		display: inline-block;
+		box-sizing: border-box;
+	}
+}
 .sales_page{
 	overflow: hidden;
+	margin:25px 0;
+	.search_box{
+
+		.form-group{
+			span{
+
+				width: 100%;
+			}
+		}
+	}
+	hr{
+		border-color: #888;
+	}
 	input[id=productName]{
-		
+
 	}
 	input[id=quantity]{
-		
+
 	}
 	input[id=price]{
-		
+
+	}
+}
+.items{
+	a{
+		margin-top: 25px;
+
+	}
+}
+.search_customer{
+	.input-group{
+
+		margin-bottom: 10px;
+	}
+}
+.bar{
+	border-bottom: 1px solid lighten(#999,10%);
+	margin-bottom: 25px;
+	clear: both;
+}
+//tune
+body
+{
+	counter-reset: Serial;           /* Set the Serial counter to 0 */
+}
+
+table.crtTbl{
+	border-collapse: separate;
+	tr td:first-child:before
+	{
+		counter-increment: Serial;      /* Increment the Serial counter */
+		content:counter(Serial); /* Display the counter */
 	}
 }
