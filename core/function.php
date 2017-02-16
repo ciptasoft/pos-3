@@ -11,7 +11,6 @@ class bsCore {
 		require 'bs-admin/main.php';
 		
 	}
-	
 }
 
 ?>

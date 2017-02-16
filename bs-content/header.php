@@ -39,12 +39,13 @@
 					<li><a href="#">Notifications <span class="badge">2</span></a></i></a></li>
 					<li>  
 						<div class="dropdown">
-							<button class="btn btn-inverse dropdown-toggle" type="button" data-toggle="dropdown"><i class="ion-ios-person-outline"></i> User
+							<button class="btn btn-inverse dropdown-toggle" type="button" data-toggle="dropdown"><i class="ion-ios-person-outline"></i> Admin
 								<span class="caret"></span></button>
 								<ul class="dropdown-menu">
-									<li><a href="http://pidevs.com">Jamal</a></li>
-									<li class="divider"></li>
+									<li><a href="http://pidevs.com">Admin</a></li>
 									<li><a href="#">Profile</a></li>
+									<li class="divider"></li>
+									<li><a href="#">Logout</a></li>
 								</ul>
 							</div>
 						</li>

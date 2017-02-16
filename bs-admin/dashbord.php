@@ -61,7 +61,7 @@
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 				<form action="bs-admin/main.php" method="get">
 					<div class="list-group">
-						<a class="list-group-item" href="/<?= '?ref=newSales'; ?>"> <i class="ion-ios-cart-outline"></i> Start new sale</a>
+						<a class="list-group-item" href="/<?= '?ref=sales'; ?>"> <i class="ion-ios-cart-outline"></i> Start new sale</a>
 					</div>
 				</form>
 			</div>

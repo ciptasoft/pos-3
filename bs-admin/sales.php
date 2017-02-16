@@ -6,6 +6,7 @@
 					<div class="col-md-6">
 						<div class="form-group">
 							<label for="productName">Type Product name</label>
+							
 							<input type="text" name="productName" class="form-control" id="productName" placeholder="Search for product">	
 						</div>
 					</div>
@@ -57,7 +58,7 @@
 						<label for="Username">New Customer Information</label>
 						<div class="input-group input-group-sm">
 							<span class="input-group-addon" id="sizing-addon3"><I class="ion-person"></I></span>
-							<input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon3">
+							<input type="text" class="form-control" placeholder="Customer Name" aria-describedby="sizing-addon3">
 						</div>
 						<div class="input-group input-group-sm">
 							<span class="input-group-addon" id="sizing-addon3"><i class="ion-android-call"></i></span>
@@ -65,7 +66,7 @@
 						</div>
 						<div class="input-group input-group-sm">
 							<span class="input-group-addon" id="sizing-addon3"><i class="ion-ios-email"></i></span>
-							<input type="text" class="form-control" placeholder="Email AAddress" aria-describedby="sizing-addon3">
+							<input type="text" class="form-control" placeholder="Email Address" aria-describedby="sizing-addon3">
 						</div>
 					</div>
 				</div>
@@ -80,17 +81,18 @@
 				<div class="sub_total">
 					<label>Sub Total </label>
 					<ul>
-						<li>Total Ammount <br> <h4>0</h4></li>
-						<li>Ammount Due <br><h4>0</h4></li>
+						<li class="total_ammount">Total Ammount<b>(&#2547;)</b> <br> <h4>0</h4></li>
+						<li class="after_discoount">After Discount <b>(&#2547;)</b> <br><h4>0</h4></li>
 					</ul>
 				</div>
 				<div class="payment_type">
 					<label>Payment Type</label>
 					<br>
-					<a href="#" class="btn btn-primary">Cash</a>
-					<a href="#" class="btn btn-warning">Check</a>
+					<a href="#" class="btn btn-info">Cash</a>
+					<a href="#" class="btn btn-default">Check</a>
 					<div class="input-group">
-						<input type="text" class="form-control" placeholder="Search for...">
+						<input type="number" id="checkout_ammount" class="form-control" 
+						name="updateDiscount" placeholder="0">
 						<span class="input-group-btn">
 							<button class="btn btn-info" type="button">Complete sale</button>
 						</span>

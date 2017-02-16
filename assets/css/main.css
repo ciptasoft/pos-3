@@ -263,6 +263,12 @@ body {
   padding-right: 0 !important;
   padding-left: 0 !important; }
 
+.btn {
+  border-radius: 2px; }
+
+.form-control {
+  border-radius: 2px; }
+
 .items_page {
   overflow: hidden;
   background-color: #fff; }
